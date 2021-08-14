@@ -222,3 +222,15 @@ Facebook: <https://www.facebook.com/CreativeTim?ref=creativetim>
 Dribbble: <https://dribbble.com/creativetim?ref=creativetim>
 
 Instagram: <https://www.instagram.com/CreativeTimOfficial?ref=creativetim>
+
+### Lab 05
+
+Number and name of feature: Editing the portfolio based in trello instructions
+
+Estimate of time needed to complete: 3
+
+Start time: 5pm
+
+Finish time: 10pm
+
+Actual time needed to complete: 5 hours

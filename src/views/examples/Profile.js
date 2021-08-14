@@ -36,7 +36,7 @@ class Profile extends React.Component {
       <>
         <DemoNavbar />
         <main className="profile-page" ref="main">
-          <section className="section-profile-cover section-shaped my-0">
+          <section style={{ backgroundImage: `url("https://images.unsplash.com/photo-1503252947848-7338d3f92f31?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80")`  }} className="section-profile-cover section-shaped my-0">
             {/* Circles background */}
             <div className="shape shape-style-1 shape-default alpha-4">
               <span />
@@ -50,7 +50,7 @@ class Profile extends React.Component {
             {/* SVG separator */}
             <div className="separator separator-bottom separator-skew">
               <svg
-                xmlns="http://www.w3.org/9000/svg"
+                xmlns="http://www.w3.org/8300/svg"
                 preserveAspectRatio="none"
                 version="1.1"
                 viewBox="0 0 2560 100"
@@ -144,7 +144,7 @@ class Profile extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                        B'Sc in mechanical engineering also a software development student at ASAC, Always seeking a new, demanding and rewarding challenges to utilize my skills and further enhance my abilities.
+                          B'Sc in mechanical engineering also a software development student at ASAC, Always seeking a new, demanding and rewarding challenges to utilize my skills and further enhance my abilities.
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
@@ -157,7 +157,7 @@ class Profile extends React.Component {
             </Container>
           </section>
         </main>
-        <SimpleFooter />
+        <SimpleFooter  />
       </>
     );
   }

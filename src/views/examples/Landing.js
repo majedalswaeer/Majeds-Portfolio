@@ -17,14 +17,14 @@
 */
 import React from "react";
 // nodejs library that concatenates classes
-import classnames from "classnames";
-import promo1 from "assets/img/theme/promo-1.png";
+// import classnames from "classnames";
+// import promo1 from "assets/img/theme/promo-1.png";
 import cardImg from "assets/img/theme/201project.png";
-import ill2 from "assets/img/ill/ill-2.svg";
-import team1 from "assets/img/theme/team-1-800x800.jpg";
-import team2 from "assets/img/theme/team-2-800x800.jpg";
-import team3 from "assets/img/theme/team-3-800x800.jpg";
-import team4 from "assets/img/theme/team-4-800x800.jpg";
+// import ill2 from "assets/img/ill/ill-2.svg";
+// import team1 from "assets/img/theme/team-1-800x800.jpg";
+// import team2 from "assets/img/theme/team-2-800x800.jpg";
+// import team3 from "assets/img/theme/team-3-800x800.jpg";
+// import team4 from "assets/img/theme/team-4-800x800.jpg";
 
 // reactstrap components
 import {
@@ -45,10 +45,10 @@ import {
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
-import CardsFooter from "components/Footers/CardsFooter.js";
+import SimpleFooter from "components/Footers/SimpleFooter.js";
 
 // index page sections
-import Download from "../IndexSections/Download.js";
+// import Download from "../IndexSections/Download.js";
 
 class Landing extends React.Component {
   state = {};
@@ -64,7 +64,7 @@ class Landing extends React.Component {
         <main ref="main">
           <div className="position-relative">
             {/* shape Hero */}
-            <section className="section section-lg section-shaped pb-250">
+            <section style={{backgroundImage: `url("https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80")`, backgroundSize:"cover"}} className="section section-lg section-shaped pb-250">
               <div className="shape shape-style-1 shape-default">
                 <span />
                 <span />
@@ -168,14 +168,14 @@ class Landing extends React.Component {
                               creative
                             </Badge>
                           </div>
-                          <Button
+                          {/* <Button
                             className="mt-4"
                             color="primary"
                             href="#pablo"
                             onClick={e => e.preventDefault()}
                           >
                             Learn more
-                          </Button>
+                          </Button> */}
                         </CardBody>
                       </Card>
                     </Col>
@@ -409,7 +409,7 @@ class Landing extends React.Component {
           </section> */}
 
           
-          <section className="section pb-0 bg-gradient-warning">
+          {/* <section className="section pb-0 bg-gradient-warning"> */}
             {/* <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-lg-2 ml-lg-auto" md="6">
@@ -512,9 +512,9 @@ class Landing extends React.Component {
                 />
               </svg>
             </div> */}
-          </section>
+          {/* </section> */}
           
-          <section className="section section-lg">
+          {/* <section> */}
             {/* <Container>
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
@@ -699,7 +699,7 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container> */}
-          </section>
+          {/* </section> */}
           {/* <section className="section section-lg pt-0"> */}
             {/* <Container>
               <Card className="bg-gradient-warning shadow-lg border-0">
@@ -871,7 +871,7 @@ class Landing extends React.Component {
           </section> */}
           {/* <Download /> */}
         </main>
-        {/* <CardsFooter /> */}
+        <SimpleFooter  />
       </>
     );
   }
